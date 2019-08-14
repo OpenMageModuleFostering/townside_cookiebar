@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>Townside_CookieBar</name>
+    <version>0.0.1</version>
+    <stability>stable</stability>
+    <license>OSL v3.0</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>EU cookie compliance notification bar for Magento CE.</summary>
+    <description>European union cookie compliance notification bar for Magento Community Edition.</description>
+    <notes>First stable version</notes>
+    <authors><author><name>Townside</name><user>tonyfox</user><email>tony@townside.co.uk</email></author></authors>
+    <date>2013-11-11</date>
+    <time>17:26:19</time>
+    <contents><target name="mageskin"><dir name="frontend"><dir name="base"><dir name="default"><dir name="css"><dir name="townside"><file name="cookiebar.css" hash="134c1922b4a50ddfcfa0d75358d86044"/></dir></dir></dir></dir></dir></target><target name="magelocal"><dir name="Townside"><dir name="CookieBar"><dir name="Helper"><file name="Data.php" hash="9b1ed4e05d218a4fd013b09438b95e9d"/></dir><dir name="etc"><file name="adminhtml.xml" hash="e2c4da882b7f74b377bf84cbcf47d242"/><file name="config.xml" hash="66544403f54d68e2bdd55342d40a5a64"/><file name="system.xml" hash="79bb0b90b769e8df28151ef940aa13f5"/></dir></dir></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><dir name="townside"><file name="cookiebar.xml" hash="f621e02baa37b60607378576ade91aff"/></dir></dir><dir name="template"><dir name="townside"><file name="cookiebar.phtml" hash="029de578daee24994a0e7ddc5cf0b556"/></dir></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Townside_CookieBar.xml" hash="92e7f7518fc4c1077dc3895cbd29c6c9"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>6.0.0</max></php></required></dependencies>
+</package>

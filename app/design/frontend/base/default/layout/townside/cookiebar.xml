@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+
+<default>
+	<reference name="after_body_start" >
+		<block type="core/template" name="townsidecookiebar" template="townside/cookiebar.phtml" />
+	</reference>
+	<reference name="head" >
+		<action method="addItem"  ifconfig="townsidecookiebar/general/enabled">
+			<type>skin_css</type>
+			<name>css/townside/cookiebar.css</name>
+		</action>
+	</reference>
+</default>
+
+
+</layout>

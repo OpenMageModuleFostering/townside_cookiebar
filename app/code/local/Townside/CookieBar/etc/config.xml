@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- The root node for Magento module configuration -->
+<config> 
+
+    <!-- 
+        The module's node contains basic 
+        information about each Magento module
+    -->
+    <modules>
+
+        <!--
+            This must exactly match the namespace and module's folder
+            names, with directory separators replaced by underscores
+        -->
+        <Townside_CookieBar>
+
+            <!-- The version of our module, starting at 0.0.1 -->
+            <version>0.0.1</version>
+
+        </Townside_CookieBar>
+
+    </modules>
+
+	<frontend>
+        <layout>
+            <updates>
+                <townsidecookiebar>
+                    <file>townside/cookiebar.xml</file>
+                </townsidecookiebar>
+            </updates>
+        </layout>
+    </frontend>
+
+    <global>
+
+    
+        <helpers>
+            <townsidecookiebar>
+                <class>Townside_CookieBar_Helper</class>
+            </townsidecookiebar>
+		</helpers>        
+    </global>
+
+	<default>
+		<townsidecookiebar>
+			<general>
+				<enabled>0</enabled>
+				<backgroundColour>#efefe</backgroundColour>
+				<textColour>#333333</textColour>
+				<buttonBackgroundColour>#0B4884</buttonBackgroundColour>
+				<buttonTextColour>#ffffff</buttonTextColour>
+				<text>This website requires cookies to provide all of its features. By using our website, you agree to our use of cookies.</text>
+			</general>
+		</townsidecookiebar>				
+	</default>	
+</config>
