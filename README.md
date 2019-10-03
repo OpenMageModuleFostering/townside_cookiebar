@@ -1,3 +1,5 @@
+
+
 ## Original Package Description
 
 EU cookie compliance notification bar for Magento CE.
