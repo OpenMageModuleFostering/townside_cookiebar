@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/Townside_CookieBar",
+    "name": "OpenMageModuleFostering\/Townside_CookieBar",
     "type": "magento-module",
     "license": "OSL-v3.0",
     "homepage": "",
     "description": "EU cookie compliance notification bar for Magento CE.",
     "authors": [
-    {
-        "name": "Townside",
-        "email": "tony@townside.co.uk"
-    }
-],
+        {
+            "name": "Townside",
+            "email": "tony@townside.co.uk"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
